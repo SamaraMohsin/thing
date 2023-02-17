@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ThingRepository extends JpaRepository<Thing,Long> {
-    public Optional<Thing> findByName(String name);
+    public Optional<Thing> findByMyName(String name);
 
 }
